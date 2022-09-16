@@ -143,6 +143,9 @@ header h1{
 ------------main-----------
 -------------------------*/
 
+
+/* ------intro-section------ */
+
 main .intro-section{
     display: flex;
     flex-direction: column;
@@ -163,6 +166,43 @@ main .intro-section{
 }
 .text-content p{
     line-height: 1.8;
+}
+
+/* ------project-section------ */
+
+main .project-section{
+    display: grid;
+    gap: 1.5rem;
+    padding: 3rem 1.5rem;
+}
+.project-section h2{
+    color: var(--black);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.project-section .creation-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.creation-container .creation{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.creation img{
+    width: 100%;
+    height: 100%;
+}
+.creation span{
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    color: var(--white);
+    font-size: 1.5rem;
+    max-width: 150px;
 }
 
 /*-------------------------
@@ -244,6 +284,15 @@ footer .attribution{
     header h1{
         max-width: 380px;
     }
+    main .intro-section{
+        padding: 5rem;
+    }
+    main .project-section{
+        padding: 5rem;
+    }
+    .project-section .creation-container{
+        grid-template-columns: 1fr 1fr;
+    }
     footer{
         padding: 5rem;
         padding-bottom: 3rem;
@@ -323,8 +372,14 @@ footer .attribution{
     .text-content h2{
         font-size: 2.5rem;
     }
-    .text-content p{
-        font-size: .74rem;
+    .project-section .creation-container{
+        grid-template-columns: repeat(3,1fr)
+    }
+    .creation-container span{
+        left: 2rem;
+        bottom: 2rem;
+        font-size: 2rem;
+        max-width: 200px;
     }
 }
 @media(min-width: 1400px){
@@ -351,5 +406,11 @@ footer .attribution{
     }
     .text-content p{
         font-size: .938rem;
+    }
+    main .project-section{
+        padding: 8rem 10rem;
+    }
+    .project-section .creation-container{
+        grid-template-columns: repeat(4,1fr);
     }
 }
