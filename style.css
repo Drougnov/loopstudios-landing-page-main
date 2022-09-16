@@ -154,7 +154,6 @@ main .intro-section{
     max-width: 100%;
 }
 .intro-section .text-content{
-    width: 300px;
     margin: 0 auto;
 }
 .text-content h2{
@@ -237,28 +236,13 @@ footer .attribution{
         width: calc(100% - 10rem);
     }
     nav .nav-list{
-        height: 80vh;
+        height: 90vh;
         top: -3rem;
         left: -5rem;
         padding-left: 5rem;
     }
     header h1{
         max-width: 380px;
-    }
-    main .intro-section{
-        flex-direction: row;
-        padding: 5rem;
-        position: relative;
-    }
-    .intro-section picture{
-        width: 60%;
-        height: 100%;
-    }
-    .intro-section .text-content{
-        right: 0;
-        bottom: 0;
-        background: var(--white);
-        padding: 3rem;
     }
     footer{
         padding: 5rem;
@@ -319,6 +303,29 @@ footer .attribution{
     header h1{
         font-size: 3rem;
     }
+    main .intro-section{
+        flex-direction: row;
+        padding: 5rem;
+        position: relative;
+        text-align: left;
+    }
+    .intro-section picture{
+        height: 70vh;
+    }
+    .intro-section .text-content{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 50vw;
+        background: var(--white);
+        padding: 5rem;
+    }
+    .text-content h2{
+        font-size: 2.5rem;
+    }
+    .text-content p{
+        font-size: .74rem;
+    }
 }
 @media(min-width: 1400px){
     header{
@@ -331,5 +338,18 @@ footer .attribution{
     header h1{
         font-size: 4rem;
         max-width: 650px;
+    }
+    main .intro-section{
+        padding: 10rem;
+    }
+    .intro-section picture{
+        height: 50vh;
+    }
+    .intro-section .text-content{
+        right: 5rem;
+        width: 42vw;
+    }
+    .text-content p{
+        font-size: .938rem;
     }
 }
