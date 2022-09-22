@@ -105,14 +105,15 @@ nav.open .hamburger::after{
 }
 
 /* -------------nav-list----------------- */
+
 nav .nav-list{
+    list-style-type: none;
     position: absolute;
     top: -2.5rem;
     left: -1.5rem;
     width: 100vw;
     height: 100vh;
     background: var(--black);
-    list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -296,9 +297,10 @@ footer .attribution{
 
 @media(min-width:650px){
     header{
-        height: 90vh;
+        height: 85vh;
         background: url(./images/desktop/image-hero.jpg) no-repeat;
         background-size: 100% 100%;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
         justify-content: flex-start;
         align-items: flex-end;
         padding: 5rem;
@@ -309,7 +311,7 @@ footer .attribution{
         width: calc(100% - 10rem);
     }
     nav .nav-list{
-        height: 90vh;
+        height: 85vh;
         top: -3rem;
         left: -5rem;
         padding-left: 5rem;
