@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [yet to add]
-- Live Site URL: [yet to add]
+- Solution URL: [https://www.frontendmentor.io/solutions/loopstudios-landing-page-solution-mobile-first-responsive-vOKvhcwn8-](https://www.frontendmentor.io/solutions/loopstudios-landing-page-solution-mobile-first-responsive-vOKvhcwn8-)
+- Live Site URL: [https://drougnov.github.io/loopstudios-landing-page-main](https://drougnov.github.io/loopstudios-landing-page-main)
 
 ## My process
 
@@ -55,10 +55,6 @@ In this challange I learned:
 
 - How to re-arrange elements with grid order
 
-### Continued development
-
-- Will be adding animation on scroll
-
 ### Useful resources
 
 - StackOverflow
@@ -67,8 +63,9 @@ In this challange I learned:
 
 ## Author
 
-- Frontend Mentor - [@BIPLOB BARUA](https://www.frontendmentor.io/profile/Drougnov)
-- Facebook - [@Biplob Barua Rocky](https://www.facebook.com/ANT1D0t35)
+- Website - [Rocky Barua](https://rockybarua.netlify.app/)
+- Frontend Mentor - [@Drougnov](https://www.frontendmentor.io/profile/Drougnov)
+- Twitter - [@itz_rocky_barua](https://twitter.com/itz_rocky_barua)
 
 ## Acknowledgments
 
